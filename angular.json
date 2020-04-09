@@ -30,8 +30,7 @@
           },
           "configurations": {
             "production": {
-              "fileReplacements": [
-              ],
+              "fileReplacements": [],
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
@@ -100,5 +99,8 @@
       }
     }
   },
-  "defaultProject": "angular-essential-training"
+  "defaultProject": "angular-essential-training",
+  "cli": {
+    "analytics": "9f2ba041-a236-4aec-861c-82b4833da7d6"
+  }
 }

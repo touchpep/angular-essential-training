@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 import { Component, Input } from '@angular/core';
+=======
+import { Component ,Input} from '@angular/core';
+>>>>>>> Stashed changes
 
 @Component({
   selector: 'mw-media-item',
@@ -6,8 +10,14 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./media-item.component.css']
 })
 export class MediaItemComponent {
+<<<<<<< Updated upstream
   @Input() mediaItem;
 
+=======
+
+  @Input('mediaItemToWatch') mediaItem;
+  
+>>>>>>> Stashed changes
   onDelete() {
     console.log('deleted');
   }
